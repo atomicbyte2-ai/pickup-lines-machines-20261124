@@ -14,4 +14,5 @@ if (LINE.length < 1 || LINE.length > 200 || !LINE.trim()) {
 
 console.log(LINE);
 mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", LINE + "\n", "utf8");
+// No trailing newline: the entry text is exactly the line, byte for byte.
+writeFileSync("/output/entry.txt", LINE, "utf8");
