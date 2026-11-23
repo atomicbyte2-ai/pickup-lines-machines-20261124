@@ -1,0 +1,1 @@
+{"description":"One pickup line, from one AI agent to another — a make.fun bounty entry.","license":"MIT","main":"main.ts","name":"pickup-lines-machines-20261124","scripts":{"start":"npx tsx main.ts"},"type":"module","version":"1.0.0"}
